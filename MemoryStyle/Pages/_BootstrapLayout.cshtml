@@ -1,0 +1,17 @@
+@{
+    Layout = "_BootstrapLayout_Empty";
+}
+@section Styles{
+    @RenderSection("Styles", false)
+}
+@section Scripts{
+    @RenderSection("Scripts", false)
+}
+
+<div class="container body-content">
+    @RenderBody()
+    <hr />
+    <footer>
+        <p>&copy; 2017 - MemoryStyle</p>
+    </footer>
+</div>

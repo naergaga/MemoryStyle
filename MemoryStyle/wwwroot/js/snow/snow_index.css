@@ -1,0 +1,15 @@
+body {
+    background-color: hsla(0,0%,0%,1);
+}
+
+#canv{
+    width:100%;
+    position:fixed;
+}
+
+div.snow{
+    width:100%;
+    position:absolute;
+    color:crimson;
+    top:0;
+}
